@@ -1,0 +1,8 @@
+name: Div Container manager plugin for ckeditor
+description: Add the 'Div Container manager' plugin in ckeditor
+package: Editor
+type: module
+version: 1.0
+core: 8.x
+dependencies:
+  - ckeditor
