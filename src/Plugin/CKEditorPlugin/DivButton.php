@@ -14,7 +14,7 @@ use Drupal\editor\Entity\Editor;
  * Defines the "Div Container Manager" plugin.
  *
  * @CKEditorPlugin(
- * id = "divbutton",
+ * id = "div",
  * label = @Translation("Div Container Manager")
  * )
  */
@@ -49,7 +49,7 @@ class DivButton extends CKEditorPluginBase {
    */
   public function getButtons() {
     return [
-      'divbutton' => [
+      'div' => [
         'label' => t('Div Container Manager'), 
         'image' => drupal_get_path('module', 'cke_div') . '/js/plugins/div/icons/creatediv.png'
       ]
